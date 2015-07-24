@@ -85,8 +85,7 @@
             android:id="@+id/button6"
             android:textSize="@dimen/button_font_size"
             android:textColor="@color/button_text_color"
-            android:background="@color/button_color"
-            android:onClick="clearText" />
+            android:background="@color/button_color" />
 
         <Space
             android:layout_width="0sp"
