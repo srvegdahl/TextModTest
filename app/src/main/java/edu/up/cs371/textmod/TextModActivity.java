@@ -84,6 +84,14 @@ public class TextModActivity extends ActionBarActivity {
     }
 
     /**
+     * callback method to convert to upper case
+     * @param view the button
+     */
+    public void convertUpper(View view) {
+        editText.setText(editText.getText().toString().toUpperCase());
+    }
+
+    /**
      * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
      */
     @Override
